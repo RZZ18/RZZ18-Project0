@@ -1,0 +1,19 @@
+%about-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.yes-card-text {
+  @extend %about-shared;
+  border-color: green;
+}
+
+.maybe-card-text {
+  @extend %about-shared;
+  border-color: brown;
+}
+
+.no-card-text {
+  @extend %about-shared;
+  border-color: red;
+}

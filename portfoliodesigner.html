@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale=1.0">
+    <h1 align="center"> My Portfolio
+    </h1>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <a href="myportfolio.html" span class="glyphicon glyphicon-home"></span>
+    </a>
+</head>
+
+<body>
+ <div class="container2">  <img src="myportfolio.jpg" alt="logo" >
+  </div>
+     <div class="container3">
+        <div class="row">
+          <div class="col align-self-start">
+             <p>
+               <input name="Age" type="number" placeholder="Age">
+             </p>
+             <p> Risk Appetite
+             </p>
+             <p>
+               <input name="risk appetite" type="radio" value="Conservative"> Conservative
+               <input name="risk appetite" type="radio" value="Moderate"> Moderate
+               <input name="risk appetite" type="radio" value="Aggressive"> Aggresive
+            </p>
+          </div>
+         <div class="col align-self-center">
+                <input name="Funds" list="Funds" placeholder="Funds">
+                <datalist id="Funds">
+                  <option value="Aberdeen India Equity Fund">
+                  <option value="BlackRock Asian Dragon Fund">
+                  <option value="Fidelity Global Dividend Fund">
+                  <option value="Franklin Global Technology Fund">
+                  <option value="PIMCO Total Return Fund">
+               </datalist>
+         </div>
+        <div class="col align-self-end">
+              <span class="input-group-addon">$</span>
+              <input type="number" class="form-control" placeholder="My monthly budget is" aria-label="Amount (to the nearest dollar)">
+              <span class="input-group-addon">.00</span>
+        </div>
+     </div>
+   </div>
+  <div id="footer" class ="small"> Copyright &#169; RZZ18
+  </div>
+</body>
+</html>
